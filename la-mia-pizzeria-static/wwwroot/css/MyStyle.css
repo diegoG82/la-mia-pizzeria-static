@@ -1,0 +1,42 @@
+﻿
+
+nav{
+    border: 2px solid red;
+}
+nav img{
+    width:5%;
+}
+
+
+
+h1{
+    color:red;
+    margin: 0 auto;
+}
+
+
+.mainimg{
+    height:500px;
+    margin: 0 auto;
+}
+
+table img{
+    width: 80px;
+}
+
+.card{
+    height:450px;
+    border: 2px solid red;
+}
+
+.card img{
+    height: 350px;
+    object-fit:cover;
+    
+}
+
+footer{
+    height: 50px;
+    border: 2px solid red;
+    margin-top:50px;
+}
