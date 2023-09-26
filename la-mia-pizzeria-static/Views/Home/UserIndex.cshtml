@@ -142,8 +142,10 @@
         <p class="col-md-4">© 2023 Diego G.</p>
 
         <ul class="nav col-md-4 justify-content-end align-items-center">
-            <li class="nav-item"><a href="\Home\UserIndex" class="nav-link px-2 text-muted">Home</a></li>
-            <li class="nav-item"><a href="\Home\Index" class="nav-link px-2 text-muted">Admin Page</a></li>
+        
+            <li class="nav-item nav-link active"> <a  asp-controller="Home" asp-action="UserIndex">Home</a></li>
+            <li class="nav-item nav-link active"> <a asp-controller="Home" asp-action="Index">Admin Page</a></li>
+            
         </ul>
 
     </footer>
